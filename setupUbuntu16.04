@@ -1,0 +1,12 @@
+#do this for setup---
+
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get upgrade -f
+sudo apt-get install git
+git clone https://github.com/roku674/Ubuntu.Dependencies.Minergate
+sudo apt-get install alien dpkg-dev debhelper build-essential
+sudo dpkg -i *.deb
+sudo apt-get update
+sudo apt-get upgrade
+minergate-cli -u Roku674@gmail.com --xmr num
