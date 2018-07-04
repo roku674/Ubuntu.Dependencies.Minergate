@@ -26,5 +26,6 @@ sudo dpkg -i *.deb
 sudo apt-get update
 sudo apt-get upgrade
 12)
+//int is a non decimal number
 minergate-cli -u Roku674@gmail.com --xmr int
 //change the email to yours and whatever you're mining like --zec for instance
