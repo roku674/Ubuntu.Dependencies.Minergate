@@ -45,14 +45,15 @@ git clone https://github.com/roku674/mineXMR (this is actually just minergate-cl
 
 sudo apt-get install alien dpkg-dev debhelper build-essential
 Y
-cd mineXMR
-sudo dpkg -i *.deb
+reboot
+sudo apt-get update
+sudo apt-get upgrade
 
 11)
 
-sudo apt-get update
-
-sudo apt-get upgrade
+sudo apt-get install -f
+cd mineXMR
+sudo dpkg -i *.deb
 
 12)
 
