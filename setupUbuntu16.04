@@ -39,7 +39,8 @@ sudo apt-get install git
 
 9)
 
-git clone https://github.com/roku674/mineXMR (this is actually just minergate-cli with some .bat files i could use to double click and crank up minergate-cli on windows .bat doesn't work on linux) 
+wget https://minergate.com/download/deb-cli -O minergate-cli.deb 
+
 
 10)
 
@@ -52,17 +53,12 @@ sudo apt-get upgrade
 11)
 
 sudo apt-get install -f
-cd mineXMR
-sudo dpkg -i *.deb
+sudo dpkg -i *.deb (or sudo dpkg -i minergate-cli.deb)
 
 12)
 
 //int is a non decimal number
-cd mineXMR
 minergate-cli -u Roku674@gmail.com --xmr int
 
-//change the email to yours and whatever you're mining like --zec
+//change the email to yours unless you're feeling generous to me and  mien whatever you're mining like --zec
 https://minergate.com/a/d770f13aaa64d1a29b17bcc1
-
-way i figured this out is they give us a student account through github studen tpack which started that account with 50 dollar balance and i was like wait but i can reffer someone so ir eferred myself
-give us a github account digital ocean account amazon acount and bunch more stuff
