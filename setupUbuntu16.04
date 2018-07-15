@@ -57,6 +57,8 @@ sudo apt-get install -f
 Y
 sudo dpkg -i *.deb (or sudo dpkg -i minergate-cli.deb)
 
+if that doesn't work do ( sudo apt-get update (enter) sudo apt-get upgrade enter) repeat step 11
+
 12)
 
 //int is a non decimal number
