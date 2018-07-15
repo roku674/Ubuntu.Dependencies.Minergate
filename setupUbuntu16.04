@@ -62,5 +62,5 @@ sudo dpkg -i *.deb (or sudo dpkg -i minergate-cli.deb)
 //int is a non decimal number
 minergate-cli -u Roku674@gmail.com --xmr int
 
-//change the email to yours unless you're feeling generous to me and  mien whatever you're mining like --zec
+//change the email to yours unless you're feeling generous to me and  mine whatever you're mining like --zec --bcn etc you can find the selections on minergate's website link below
 https://minergate.com/a/d770f13aaa64d1a29b17bcc1
