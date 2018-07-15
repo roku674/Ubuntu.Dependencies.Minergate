@@ -21,6 +21,7 @@ sudo apt-get install git
 git clone https://github.com/roku674/mineXMR (this is actually just minergate-cli with some .bat files i could use to double click and crank up minergate-cli on windows .bat doesn't work on linux) 
 10)
 sudo apt-get install alien dpkg-dev debhelper build-essential
+will ask you yes or no tpye: Y (enter)
 sudo dpkg -i *.deb
 11)
 sudo apt-get update
